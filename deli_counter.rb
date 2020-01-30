@@ -3,7 +3,7 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else 
-    katz_deli.each do 
+    katz_deli.each do |name|
       phrase = "The line is currently:"
       counter = 1 
       phrase += " #{counter}. #{name}"
