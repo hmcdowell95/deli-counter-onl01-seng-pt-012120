@@ -8,8 +8,8 @@ def line(katz_deli)
       counter = 1 
       phrase += " #{counter}. #{name}"
       counter += 1 
+      return phrase
     end
-    return phrase
   end
 end
 
