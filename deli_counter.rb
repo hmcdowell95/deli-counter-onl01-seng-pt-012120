@@ -5,6 +5,7 @@ def line(katz_deli)
   else 
     loop do 
       phrase = "The line is currently: "
+      counter = 1 
       phrase += "#{name}"
   end
 end
