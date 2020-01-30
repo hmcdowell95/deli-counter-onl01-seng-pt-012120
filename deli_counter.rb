@@ -9,6 +9,7 @@ def line(katz_deli)
       phrase += " #{counter}. #{name}"
       counter += 1 
     end
+    return phrase
   end
 end
 
