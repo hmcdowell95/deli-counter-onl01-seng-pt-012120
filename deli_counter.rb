@@ -8,8 +8,8 @@ def line(katz_deli)
     katz_deli.each do |name|
       phrase += " #{counter}. #{name}"
       counter += 1 
-      puts phrase
     end
+    puts phrase
   end
 end
 
